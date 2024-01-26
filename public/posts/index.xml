@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Make a Wish Westview</title>
+    <link>https://westviewmakeawish.github.io/posts/</link>
+    <description>Recent content in Posts on Make a Wish Westview</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://westviewmakeawish.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Xander</title>
+      <link>https://westviewmakeawish.github.io/posts/xander/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://westviewmakeawish.github.io/posts/xander/</guid>
+      <description>Xander Alexander is a four-year-old from Portland iwth cystic fibrosis. His favorfite colors are red and blue. His favorite show is Mickey Mouse Clubhouse and he likes playing with cars and his pet dog, Captain. Xander is going to Disney World in OCtober and is very excited to meet his favorite character Mickey!</description>
+    </item>
+    
+  </channel>
+</rss>

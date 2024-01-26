@@ -76,16 +76,16 @@ pluralizelisttitles = false
     post       = 4
 
 [[menu.main]]
-    name       = "About"
-    url        = ""
+    name       = "About Xander"
+    url        = "/posts/xander/"
     weight     = 5
-    identifier = "section.about"
+    identifier = "xander"
 
-[[menu.main]]
-    name       = "Our Team"
-    url        = ""
-    weight     = 2
-    parent     = "section.about"
+#[[menu.main]]
+#    name       = "Our Team"
+#    url        = ""
+#    weight     = 2
+#    parent     = "section.about"
 
 #[[menu.main]]
 #    name       = "All Pages"
