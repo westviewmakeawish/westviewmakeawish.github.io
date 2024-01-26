@@ -1,4 +1,4 @@
-baseurl = "westviewmakeawish.github.io" # Configure URL. if using gh-pages https://github.com/<username>/hugo-universal-theme URL: https://<username>.github.io/hugo-universal-theme/
+baseurl = "https://westviewmakeawish.github.io/hugo-universal-theme/" # Configure URL. if using gh-pages https://github.com/<username>/hugo-universal-theme URL: https://<username>.github.io/hugo-universal-theme/
 title = "Make a Wish Westview"
 theme = "hugo-universal-theme"
 themesDir = "themes"
@@ -9,6 +9,7 @@ defaultContentLanguage = "en"
 # disqusShortname = "devcows"
 # Enable Google Analytics by entering your tracking code
 #googleAnalytics = ""
+description = "testing 123"
 
 # number of words of summarized post content (default 70)
 summaryLength = 70
