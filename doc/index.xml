@@ -2,28 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Make a Wish Westview</title>
-    <link>https://westviewmakeawish.github.io/</link>
+    <link>westviewmakeawish.github.io/</link>
     <description>Recent content on Make a Wish Westview</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://westviewmakeawish.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="westviewmakeawish.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Contact</title>
-      <link>https://westviewmakeawish.github.io/contact/</link>
+      <link>westviewmakeawish.github.io/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://westviewmakeawish.github.io/contact/</guid>
+      <guid>westviewmakeawish.github.io/contact/</guid>
       <description>TESTING Are you curious about something? Do you have some kind of problem with our products? As am hastily invited settled at limited civilly fortune me. Really spring in extent an by. Judge but built gay party world. Of so am he remember although required. Bachelor unpacked be advanced at. Confined in declared marianne is vicinity.
 Please feel free to contact us, our customer service center is working for you 24/7.</description>
     </item>
     
     <item>
       <title>FAQ</title>
-      <link>https://westviewmakeawish.github.io/faq/</link>
+      <link>westviewmakeawish.github.io/faq/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://westviewmakeawish.github.io/faq/</guid>
+      <guid>westviewmakeawish.github.io/faq/</guid>
       <description>1. WHY IS WESTVIEW THE BEST SCHOOL Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam tincidunt mauris eu risus. Vestibulum auctor dapibus neque. </description>
+    </item>
+    
+    <item>
+      <title>Olivia</title>
+      <link>westviewmakeawish.github.io/posts/olivia/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>westviewmakeawish.github.io/posts/olivia/</guid>
+      <description>Olivia &amp;ldquo;Olivia loves playing with her younger sister Abigail, her dog Violet, playing outside, camping and animals. Olivia has been battling leukemia since 2021 and has recently become cancer free! We are so thankful for the staff at Doernbecher, our friends, family community, Westview High School and anyone who supports organizations like Make-a-Wish and that do their best to keep children&amp;rsquo;s lives happy and healthy during these difficult times&amp;rdquo; -Olivia&amp;rsquo;s Mom</description>
+    </item>
+    
+    <item>
+      <title>Xander</title>
+      <link>westviewmakeawish.github.io/posts/xander/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>westviewmakeawish.github.io/posts/xander/</guid>
+      <description>Xander Alexander is a four-year-old from Portland iwth cystic fibrosis. His favorfite colors are red and blue. His favorite show is Mickey Mouse Clubhouse and he likes playing with cars and his pet dog, Captain. Xander is going to Disney World in OCtober and is very excited to meet his favorite character Mickey!</description>
     </item>
     
   </channel>
