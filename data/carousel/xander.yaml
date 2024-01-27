@@ -1,0 +1,12 @@
+weight: 1
+title: "Xander"
+description: >
+  <ul class="list-style-none">
+     <li>Has cystic fibrosis.</li>
+     <li>Favorite Colors: Red and Blue</li>
+       <li>Favorite Show: Mickey Mouse Clubhouse</li>
+         <li>Pet Dog: Captain</li>
+           <li>Wish: Meet Mickey Mouse at Disneyland</li>
+   </ul>
+image: "/images/xander-rbg.png"
+href: "https://secure2.wish.org/site/TR/WishYourWay/Make-A-WishOregon?px=6965870&pg=personal&fr_id=5627"

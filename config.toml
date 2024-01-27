@@ -9,7 +9,7 @@ defaultContentLanguage = "en"
 # disqusShortname = "devcows"
 # Enable Google Analytics by entering your tracking code
 #googleAnalytics = ""
-description = "testing 123"
+description = "Westview High School has partnered with Make-A-Wish since 2018, raising money to grant wishes for children with critical medical conditions living right here in OUR community."
 
 # number of words of summarized post content (default 70)
 summaryLength = 70
@@ -33,59 +33,50 @@ pluralizelisttitles = false
 [[menu.main]]
     name       = "Donate"
     identifier = "menu.donate"
-    url        = "/img/template-easy-customize.png"
-    weight     = 2
-
-[[menu.main]]
-    name       = "Previous Make a Wishes"
-    identifier = "menu.previous"
-    url        = "/images/xander.png"
+    url        = "https://secure2.wish.org/site/TR/WishYourWay/Make-A-WishOregon?px=6965870&pg=personal&fr_id=5627"
     weight     = 3
 
 [[menu.main]]
+    name       = "Previously Granted Wishes"
+    identifier = "menu.previous"
+    url        = "/images/xander.png"
+    weight     = 4
+
+[[menu.main]]
     name       = "Asher"
-    identifier = "section.asher"
-    url        = ""
+    url        = "/post/asher"
     weight     = 1
     parent     = "menu.previous"
     post       = 1
 
 [[menu.main]]
     name       = "Bransen"
-    identifier = "section.bransen"
-    url        = ""
+    url        = "/posts/bransen"
     weight     = 2
     parent     = "menu.previous"
-    post       = 2
+    post       = 1
 
 
 [[menu.main]]
     name       = "Sasha"
-    identifier = "section.sasha"
-    url        = ""
+    url        = "posts/sasha"
     weight     = 3
     parent     = "menu.previous"
-    post       = 3
+    post       = 1
 
 [[menu.main]]
     name       = "Olivia"
-    identifier = "section.olivia"
-    url        = ""
+    url        = "/posts/olivia"
     weight     = 4
     parent     = "menu.previous"
-    post       = 4
+    post       = 1
 
 [[menu.main]]
     name       = "About Xander"
     url        = "/posts/xander/"
-    weight     = 5
+    weight     = 2
     identifier = "xander"
 
-#[[menu.main]]
-#    name       = "Our Team"
-#    url        = ""
-#    weight     = 2
-#    parent     = "section.about"
 
 #[[menu.main]]
 #    name       = "All Pages"
@@ -179,11 +170,11 @@ pluralizelisttitles = false
     url        = "/blog/"
     weight     = 6
 
-[[menu.main]]
-    name       = "FAQ"
-    identifier = "menu.faq"
-    url        = "/faq/"
-    weight     = 6
+#[[menu.main]]
+#    name       = "FAQ"
+#    identifier = "menu.faq"
+#    url        = "/faq/"
+#    weight     = 6
 
 [[menu.main]]
     identifier = "contact"
@@ -197,14 +188,14 @@ pluralizelisttitles = false
 [[menu.topbar]]
     weight = 1
     name = "Phone"
-    url = "tel:+12 34 567 89 01"
+    url = "tel:+1 503 292 2280"
     pre = "<i class='fas fa-2x fa-phone'></i>"
 
 [[menu.topbar]]
     weight = 2
     name = "Donate"
     url = "https://secure2.wish.org/site/TR/WishYourWay/Make-A-WishOregon?px=6965870&pg=personal&fr_id=5627"
-    pre = "<i class='fas fa-2x fa-donate'></i>"
+    pre = "<i class='fas fa-2x fa-hand-holding-dollar'></i>"
 
 #[[menu.topbar]]
 #    weight = 2
@@ -231,20 +222,20 @@ pluralizelisttitles = false
     pre = "<i class='fas fa-2x fa-envelope'></i>"
 
 [params]
-    viewMorePostLink = "/blog/"
-    author = "DevCows"
-    defaultKeywords = ["devcows", "hugo", "go"]
-    mainSections = ["blog"]
-    defaultDescription = "Site template made by Devcows using Hugo"
+    #viewMorePostLink = "/blog/"
+    author = "Westview"
+    #defaultKeywords = ["devcows", "hugo", "go"]
+    #mainSections = ["blog"]
+    #defaultDescription = "Site template made by Devcows using Hugo"
 
     # Social media
-    facebook_site = "" # the Facebook handle of your site ('https://www.facebook.com/HANDLE')
-    twitter_site = "GoHugoIO" # the Twitter handle of your site (without the '@')
-    default_sharing_image = "img/sharing-default.png"
+    #facebook_site = "" # the Facebook handle of your site ('https://www.facebook.com/HANDLE')
+    #twitter_site = "GoHugoIO" # the Twitter handle of your site (without the '@')
+    default_sharing_image = "/images/xander.png"
 
     # Google Maps widget: If `googleMapsApiKey` is not set, no key will be passed to Google (which likely results in a broken map widget).
     #enableGoogleMaps = true
-    #googleMapsApiKey = "AIzaSyAv7Sza8NSp9_l_g8G2vlo0H4ydEPn_2jY"
+    #googleMapsApiKey = ""
 
     #latitude = "-12.043333"
     #longitude = "-77.028333"
@@ -286,7 +277,7 @@ pluralizelisttitles = false
     #enableRecaptchaInContactForm = false
     #googleRecaptchaKey = "site_key_for_google_recaptcha"
 
-    about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
+    about_us = "<p>Westview High School has partnered with Make-A-Wish since 2018, raising money to grant wishes for children with critical medical conditions living right here in OUR community.</p>"
     copyright = "Westview High School Make A Wish"
 
     # Format dates with Go's time formatting
@@ -300,27 +291,29 @@ pluralizelisttitles = false
     logo = "images/westview-high-school.png"
     logo_small = "images/westview-high-school.ico"
     contact_url = "/contact"
-    address = """<p class="text-uppercase"><strong>Universal Ltd.</strong>
-        <br>13/25 New Avenue
-        <br>Newtown upon River
-        <br>45Y 73J
-        <br>England
+    address = """<p class="text-uppercase">
+        <strong>Westview High School</strong>
+        <br>4200 NW 185th Ave
+        <br>Portland, OR 97229
+        <br><br />
+        <strong>Make-A-Wish Oregon</strong>
+        <br>5901 S Macadam Ave Ste 200
+        <br>Portland, OR 97239
         <br>
-        <strong>Great Britain</strong>
       </p>
       """
 
 [permalinks]
     blog = "/blog/:year/:month/:day/:filename/"
 
-# Enable or disable top bar with social icons
-#[params.topbar]
-#    enable = true
-#    text = """<p class="hidden-sm hidden-xs">Contact us on +420 777 555 333 or hello@universal.com.</p>
-#      <p class="hidden-md hidden-lg"><a href="tel:+420 777 555 333" data-animate-hover="pulse"><i class="fas fa-phone"></i></a>
-#      <a href="mailto:hello@universal.com" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
-#      </p>
-#      """
+ #Enable or disable top bar with social icons
+[params.topbar]
+    enable = true
+    text = """<p class="hidden-sm hidden-xs">Contact us at +1 503 292 2260</p>
+      <p class="hidden-md hidden-lg"><a href="tel:+1 503 292 2260" data-animate-hover="pulse"><i class="fas fa-phone"></i></a>
+      <a href="mailto:hello@universal.com" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
+      </p>
+      """
 
 # Enable and disable widgets for the right sidebar
 [params.widgets]
@@ -328,17 +321,12 @@ pluralizelisttitles = false
     tags = true
     search = true
 
-[params.carouselCustomers]
-    items = 6
-    auto_play = false
-    slide_speed = 2000
-    pagination_speed = 1000
 
-[params.carouselTestimonials]
-    items = 4
-    auto_play = false
-    slide_speed = 2000
-    pagination_speed = 1000
+#[params.carouselTestimonials]
+#    items = 4
+#    auto_play = false
+#    slide_speed = 2000
+#    pagination_speed = 1000
 
 [params.carouselHomepage]
     # All carousel items are defined in their own files. You can find example items
@@ -366,11 +354,13 @@ pluralizelisttitles = false
 #
 [params.see_more]
     enable = true
-    icon = "far fa-file-alt"
-    title = "Do you want to see more?"
-    subtitle = "We have prepared for you more than 40 different HTML pages, including 5 variations of homepage."
-    link_url = "#"
-    link_text = "Check other homepages"
+    #icon = "far fa-file-alt"
+    icon = "fa-solid fa-hand-holding-dollar"
+    title = "Xander"
+    subtitle = "Alexander is a four-year-old from Portland with cystic fibrosis. Xander wants to meet his favorite character Mickey Mouse at Disney World!"
+    link_url = "https://secure2.wish.org/site/TR/WishYourWay/Make-A-WishOregon?px=6965870&pg=personal&fr_id=5627"
+    link_text = "Donate"
+    image = "/images/xander.png"
 
 #[params.clients]
 #    enable = true
@@ -386,8 +376,8 @@ pluralizelisttitles = false
 #    subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
 #    hide_summary = false
 
-[params.footer.recent_posts]
-    enable = true
+#[params.footer.recent_posts]
+#    enable = true
 
 [taxonomies]
   category = "categories"
