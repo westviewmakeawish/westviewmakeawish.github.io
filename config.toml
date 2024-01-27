@@ -44,7 +44,7 @@ pluralizelisttitles = false
 
 [[menu.main]]
     name       = "Asher"
-    url        = "/post/asher"
+    url        = "/posts/asher"
     weight     = 1
     parent     = "menu.previous"
     post       = 1
