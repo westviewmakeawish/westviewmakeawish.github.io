@@ -59,7 +59,7 @@ pluralizelisttitles = false
 
 [[menu.main]]
     name       = "Sasha"
-    url        = "posts/sasha"
+    url        = "/posts/sasha"
     weight     = 3
     parent     = "menu.previous"
     post       = 1
