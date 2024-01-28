@@ -39,7 +39,6 @@ pluralizelisttitles = false
 [[menu.main]]
     name       = "Previously Granted Wishes"
     identifier = "menu.previous"
-    url        = "/images/xander.png"
     weight     = 4
 
 [[menu.main]]
@@ -77,98 +76,25 @@ pluralizelisttitles = false
     weight     = 2
     identifier = "xander"
 
+[[menu.main]]
+    name       = "Pack the Pit Events"
+    identifier = "menu.packthepit"
+    weight     = 6
 
-#[[menu.main]]
-#    name       = "All Pages"
-#    identifier = "menu.allpages"
-#    url        = ""
-#    weight     = 8
-#
-#[[menu.main]]
-#    name       = "Home"
-#    identifier = "section.ap-home"
-#    url        = ""
-#    weight     = 1
-#    parent     = "menu.allpages"
-#    post       = 1
-#
-#[[menu.main]]
-#    name       = "About"
-#    identifier = "section.ap-about"
-#    url        = ""
-#    weight     = 2
-#    parent     = "menu.allpages"
-#    post       = 1
-#
-#[[menu.main]]
-#    name       = "Marketing"
-#    identifier = "section.ap-marketing"
-#    url        = ""
-#    weight     = 3
-#    parent     = "menu.allpages"
-#    post       = 1
-#
-#[[menu.main]]
-#    name       = "Portfolio"
-#    identifier = "section.ap-portfolio"
-#    url        = ""
-#    weight     = 1
-#    parent     = "menu.allpages"
-#    post       = 2
-#
-#[[menu.main]]
-#    name       = "User Pages"
-#    identifier = "section.ap-userpages"
-#    url        = ""
-#    weight     = 2
-#    parent     = "menu.allpages"
-#    post       = 2
-#
-#[[menu.main]]
-#    name       = "Shop"
-#    identifier = "section.ap-shop"
-#    url        = ""
-#    weight     = 1
-#    parent     = "menu.allpages"
-#    post       = 3
-#
-#[[menu.main]]
-#    name       = "Shop - Order Process"
-#    identifier = "section.ap-shoporderprocess"
-#    url        = ""
-#    weight     = 2
-#    parent     = "menu.allpages"
-#    post       = 3
-#
-#[[menu.main]]
-#    name       = "Contact"
-#    identifier = "section.ap-contact"
-#    url        = ""
-#    weight     = 1
-#    parent     = "menu.allpages"
-#    post       = 4
-#
-#[[menu.main]]
-#    name       = "Pages"
-#    identifier = "section.ap-pages"
-#    url        = ""
-#    weight     = 2
-#    parent     = "menu.allpages"
-#    post       = 4
-#
-#[[menu.main]]
-#    name       = "Updates and Events"
-#    identifier = "section.ap-blog"
-#    url        = "/blog/"
-#    weight     = 3
-#    parent     = "menu.allpages"
-#    post       = 4
 
 [[menu.main]]
-    name       = "Updates and Events"
-    identifier = "menu.blog"
-    url        = "/blog/"
-    weight     = 6
+    name       = "Miracle Minute: February 16th 7:00PM"
+    url        = "/pit/feb16"
+    weight     = 1
+    parent     = "menu.packthepit"
+    post       = 1
+
+[[menu.main]]
+    name       = "Free Invisalign Raffle: February 23rd 7:00PM"
+    url        = "/pit/feb23"
+    weight     = 2
+    parent     = "menu.packthepit"
+    post       = 2
 
 #[[menu.main]]
 #    name       = "FAQ"
