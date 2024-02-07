@@ -5,5 +5,6 @@ id = "contact"
 
 # Westview Make a Wish
 
-Email: westviewwish@outlook.com
+Email: jessica\_collyer@beaverton.k12.or.us
+Phone: 503 292 2280
 
