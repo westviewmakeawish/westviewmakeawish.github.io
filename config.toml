@@ -81,20 +81,26 @@ pluralizelisttitles = false
     identifier = "menu.packthepit"
     weight     = 6
 
-
 [[menu.main]]
-    name       = "Miracle Minute: February 16th 7:00PM"
-    url        = "/pit/feb16"
+    name       = "Spirit Night: March 7th 5:00PM"
+    url        = "/pit/snmar7"
     weight     = 1
     parent     = "menu.packthepit"
     post       = 1
 
-[[menu.main]]
-    name       = "Free Invisalign Raffle: February 23rd 7:00PM"
-    url        = "/pit/feb23"
-    weight     = 2
-    parent     = "menu.packthepit"
-    post       = 2
+#[[menu.main]]
+#    name       = "Miracle Minute: February 16th 7:00PM"
+#    url        = "/pit/feb16"
+#    weight     = 1
+#    parent     = "menu.packthepit"
+#    post       = 1
+#
+#[[menu.main]]
+#    name       = "Free Invisalign Raffle: February 23rd 7:00PM"
+#    url        = "/pit/feb23"
+#    weight     = 2
+#    parent     = "menu.packthepit"
+#    post       = 2
 
 #[[menu.main]]
 #    name       = "FAQ"
