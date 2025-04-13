@@ -25,7 +25,7 @@ pluralizelisttitles = false
 
 # Main menu
 [[menu.main]]
-    name       = "Home"
+    name       = "Home "
     identifier = "menu.home"
     url        = "/"
     weight     = 1
