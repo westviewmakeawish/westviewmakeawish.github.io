@@ -33,7 +33,7 @@ pluralizelisttitles = false
 [[menu.main]]
     name       = "Donate"
     identifier = "menu.donate"
-    url        = "https://secure2.wish.org/site/TR/WishYourWay/Make-A-WishOregon?px=6965870&pg=personal&fr_id=5627"
+    url        = "https://secure2.wish.org/site/TR/WishYourWay/Make-A-WishOregon?px=10561830&pg=personal&fr_id=5627"
     weight     = 3
 
 [[menu.main]]
@@ -71,22 +71,29 @@ pluralizelisttitles = false
     post       = 1
 
 [[menu.main]]
-    name       = "About Xander"
-    url        = "/posts/xander/"
-    weight     = 2
-    identifier = "xander"
-
-[[menu.main]]
-    name       = "Pack the Pit Events"
-    identifier = "menu.packthepit"
-    weight     = 6
-
-[[menu.main]]
-    name       = "Spirit Night: March 7th 5:00PM"
-    url        = "/pit/snmar7"
-    weight     = 1
-    parent     = "menu.packthepit"
+    name       = "Xander"
+    url        = "/posts/xander"
+    weight     = -1
+    parent     = "menu.previous"
     post       = 1
+
+[[menu.main]]
+    name       = "About Katia"
+    url        = "/posts/katia/"
+    weight     = 2
+    identifier = "katia"
+
+#[[menu.main]]
+#    name       = "Pack the Pit Events"
+#    identifier = "menu.packthepit"
+#    weight     = 6
+
+#[[menu.main]]
+#    name       = "Spirit Night: March 7th 5:00PM"
+#    url        = "/pit/snmar7"
+#    weight     = 1
+#    parent     = "menu.packthepit"
+#    post       = 1
 
 #[[menu.main]]
 #    name       = "Miracle Minute: February 16th 7:00PM"
@@ -288,11 +295,11 @@ pluralizelisttitles = false
     enable = true
     #icon = "far fa-file-alt"
     icon = "fa-solid fa-hand-holding-dollar"
-    title = "Xander"
-    subtitle = "Alexander is a four-year-old from Portland with cystic fibrosis. Xander wants to meet his favorite character Mickey Mouse at Disney World!"
-    link_url = "https://secure2.wish.org/site/TR/WishYourWay/Make-A-WishOregon?px=6965870&pg=personal&fr_id=5627"
+    title = "Katia"
+    subtitle = "Katia is a 9-year-old from Beaverton with Leukemia. She loves the colors pink and purple. Her favorite things to do are painting, drawing and watching Disney movies, especially Encanto. She can’t wait to head to Florida and Disney World to meet her favorite characters!"
+    link_url = "https://secure2.wish.org/site/TR/WishYourWay/Make-A-WishOregon?px=10561830&pg=personal&fr_id=5627"
     link_text = "Donate"
-    image = "/images/xander.png"
+    image = "/images/katia.png"
 
 #[params.clients]
 #    enable = true
